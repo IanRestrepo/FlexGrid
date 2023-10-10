@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0B0A0B;
+    color: white;
+}
+
+#Flex-Parent {
+    border: 1px rgb(29, 29, 29) solid;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 100rem;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.Flex-Son {
+    border: 1px solid #0B1B1A;
+    background-color: #050C0B;
+    color: #066b64;
+    text-transform: capitalize;
+    padding: 10rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Flex-Son:hover {
+    box-shadow: #022420 0px 25px 50px -12px;
+    transition: all 500ms;
+}
